@@ -36,7 +36,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1TkUD39V4SgPsOYG4ddBvh4i8HK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -72,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574003477380</updated>
       <workItem from="1574003545016" duration="9784000" />
-      <workItem from="1574713595611" duration="4720000" />
+      <workItem from="1574713595611" duration="5229000" />
     </task>
     <servers />
   </component>
