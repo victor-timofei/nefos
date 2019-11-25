@@ -1,0 +1,40 @@
+version: '2'
+services:
+  web:
+    build: ./server
+    container_name: app
+    restart: unless-stopped
+    ports:
+      - 8889:80
+    volumes:
+      - ./server/www:/var/www/html
+    links:
+      - db
+  db:
+    container_name: mysql
+    restart: unless-stopped
+    build:
+      context: ./db
+      dockerfile: ./Dockerfile
+    volumes:
+      - /db/storage:/var/lib/mysql
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: db_test
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=password
+    volumes:
+      - ./phpmyadmin/conf.d:/var/www/html/config.inc.php
+    ports:
+      - "9000:80"

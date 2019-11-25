@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teacher</title>
+</head>
+<body>
+    <button id="add" class="float-left submit-button" >Add Student</button>
+    <button id="edit" class="float-left submit-button" >Edit Student</button>
+    <button id="delete" class="float-left submit-button" >Delete Student</button>
+    <button id="search" class="float-left submit-button" >Search Student</button>
+    <script type="text/javascript">
+        document.getElementById("add").onclick = function () {
+            location.href = "http://127.0.0.1:8889/addStudent.php";
+        };
+        document.getElementById("edit").onclick = function () {
+            location.href = "http://127.0.0.1:8889/editStudent.php";
+        };
+        document.getElementById("delete").onclick = function () {
+            location.href = "http://127.0.0.1:8889/deleteStudent.php";
+        };
+        document.getElementById("search").onclick = function () {
+            location.href = "http://127.0.0.1:8889/searchStudent.php";
+        };
+    </script>
+</body>
+</html>
