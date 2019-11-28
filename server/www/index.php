@@ -2,6 +2,9 @@
 
 session_start();
 
+if (isset($_SESSION['user_id'])) {
+    header("Location: http://127.0.0.1:8889/Teacher.php");
+}
 $db_host = 'db';
 $db_user = 'user';
 $db_pass = 'password';

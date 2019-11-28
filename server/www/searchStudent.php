@@ -56,7 +56,14 @@ function filterTable($search)
 </head>
 <body>
 <nav class="navbar navbar-light bg-danger">
-    <a class="navbar-brand text-light" href="#">Search Student</a>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand text-light" href="#">Search Student</a>
+        </div>
+        <div class="nav navbar-nav navbar-right">
+            <a class=" navbar-brand text-light" href="/Logout.php">Log out</a>
+        </div>
+    </div>
 </nav>
 <br>
 <div class="container-fluid">

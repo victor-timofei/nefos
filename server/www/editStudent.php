@@ -53,7 +53,14 @@ if (!isset($_SESSION['user_id'])) {
 <body>
 <body>
 <nav class="navbar navbar-light bg-danger">
-    <a class="navbar-brand text-light" href="#">Edit Student</a>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand text-light" href="#">Edit Student</a>
+        </div>
+        <div class="nav navbar-nav navbar-right">
+            <a class=" navbar-brand text-light" href="/Logout.php">Log out</a>
+        </div>
+    </div>
 </nav>
 <br>
 

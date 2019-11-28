@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d575201-b6b3-4515-9ecb-c1f7371a3252" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/www/Logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/www/Teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/Teacher.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/www/addStudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/addStudent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/www/deleteStudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/deleteStudent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/www/editStudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/editStudent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/www/searchStudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/searchStudent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/www/static/editStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/static/editStudent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/www/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/www/static/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/www/static/teacher.html" afterDir="false" />
     </list>
@@ -96,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574003477380</updated>
       <workItem from="1574003545016" duration="9784000" />
-      <workItem from="1574713595611" duration="105979000" />
+      <workItem from="1574713595611" duration="107127000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1574720301001</created>
@@ -133,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574975592718</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished all ui changes">
+      <created>1574981052147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574981052147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +161,7 @@
     <MESSAGE value="Added search function" />
     <MESSAGE value="Completed editStudent.php" />
     <MESSAGE value="Fixed editStudent.php and finished deleteStudent.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed editStudent.php and finished deleteStudent.php" />
+    <MESSAGE value="finished all ui changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished all ui changes" />
   </component>
 </project>
