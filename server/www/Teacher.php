@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-if ( isset( $_SESSION['user_id'] ) ) {
+if (isset($_SESSION['user_id'])) {
     // Grab user data from the database using the user_id
     // Let them access the "logged in only" pages
     readfile('static/teacher.html');
