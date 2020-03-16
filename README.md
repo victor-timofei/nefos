@@ -1,2 +1,2 @@
 # nefos
-A simple CRUD app in dokcer and php
+A simple CRUD app in docker and php
